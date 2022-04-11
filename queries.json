@@ -1,0 +1,11 @@
+{
+    "sihirdar": "https://{reg}.api.riotgames.com/lol/summoner/v4/summoners/by-name/{summonerName}",
+    "lig": "https://{reg}.api.riotgames.com/lol/league/v4/entries/by-summoner/{encryptedSummonerId}",
+    "aktif_mac":"https://{reg}.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/{encryptedSummonerId}",
+    "mac_listesi": "https://{reg}.api.riotgames.com/lol/match/v4/matchlists/by-account/{encryptedAccountId}",
+    "mac_arama": "https://{reg}.api.riotgames.com/lol/match/v4/matches/{matchId}",
+    "mac_icerigi": "https://{reg}.api.riotgames.com/lol/match/v4/timelines/by-match/{matchId}",
+    "genel_istatistik": "https://{reg}.api.riotgames.com/lol/league-exp/v4/entries/{queue}/{tier}/{division}",
+
+    "profil_resmi": "http://ddragon.leagueoflegends.com/cdn/11.7.1/img/profileicon/{res}"
+}
